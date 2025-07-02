@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    runs-on: [test]
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "👤 The user who triggered this job is ${{ github.actor }}."
